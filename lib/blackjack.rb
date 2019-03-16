@@ -51,6 +51,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  loop do
+  welcome
+  initial_round
+  hit?
+  display_card_total
 end
     
